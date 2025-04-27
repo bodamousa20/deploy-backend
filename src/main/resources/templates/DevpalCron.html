@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Have Fetched New Jobs for You</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f7fc;">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f7fc">
+    <tr>
+        <td align="center" style="padding: 40px 0;">
+            <table width="600" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+                <!-- Header Image -->
+                <tr>
+                    <td align="center" style="padding: 30px;">
+                        <img src="cid:dynamic-image" alt="Welcome to DevPal" width="100%" style="border-radius: 8px; max-width: 600px; height: auto;" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" style="padding: 0 40px;">
+                        <p style="font-size: 16px; color: #636e72; line-height: 1.6;">
+                            Explore personalized job listings, get career insights, and improve your resume with our AI-powered feedback system.
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- Job Listings -->
+                <tr>
+                    <td align="center" style="padding: 20px 40px;">
+                        <h2 style="font-size: 20px; color: #2f3640; margin-bottom: 20px;">We have found {{job_count}} jobs for you:</h2>
+                    </td>
+                </tr>
+
+                <!-- Placeholder for dynamic job list -->
+                <tr>
+                    <td>
+                        {{jobs_list}}
+                    </td>
+                </tr>
+
+                <!-- Call to Action -->
+                <tr>
+                    <td align="center" style="padding: 30px 40px 40px;">
+                        <a href="{{link}}" style="background-color: #40739e; color: #ffffff; text-decoration: none; padding: 14px 28px; border-radius: 6px; font-size: 16px; display: inline-block;">Explore More Jobs on DevPal</a>
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
